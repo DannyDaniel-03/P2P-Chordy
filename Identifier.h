@@ -10,7 +10,7 @@ class Identifier {
 public:
     static int length();
     static int size();
-
+//stmh
     Identifier();
     explicit Identifier(int p);//used to initialize 2^p
     explicit Identifier(const char* input);

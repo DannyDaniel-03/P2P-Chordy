@@ -21,7 +21,7 @@ bool request_filename(const std::string &filename, const ChordNode &remote_node)
         std::cerr << "<ChordNode::predRPC> socket failed " << strerror(errno) << std::endl;
         return false;
     }
-
+//smth
     const int port = static_cast<int>(strtol(remote_node.getAddress().c_str(), nullptr, 10));
 
     sockaddr_in server_addr = {};

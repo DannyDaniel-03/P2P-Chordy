@@ -67,7 +67,7 @@ public:
     void printSucc() const;
     void printNodeId() const;
 };
-
+//smth
 struct Finger {
     Identifier start, node_id;
     std::string node_address;

@@ -9,7 +9,7 @@
 int Identifier::length() {
     return SHA256_DIGEST_LENGTH * 8;
 }
-
+//smth
 int Identifier::size() {
     return SHA256_DIGEST_LENGTH;
 }

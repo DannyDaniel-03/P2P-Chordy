@@ -17,4 +17,5 @@ add_executable(Proiect main.cpp
         ChordNode.cpp
         ChordNode.h
 )
+
 target_link_libraries(Proiect PRIVATE OpenSSL::SSL OpenSSL::Crypto)

@@ -1,0 +1,25 @@
+# CLion-specific files
+.idea/
+*.iml
+
+# CMake build files
+cmake-build-debug/
+cmake-build-release/
+CMakeLists.txt.user
+
+# Compiler-generated files
+*.o
+*.so
+*.a
+*.out
+*.exe
+*.dll
+
+# Logs & temporary files
+*.log
+*.tmp
+
+# CLion cache
+__pycache__/
+
+

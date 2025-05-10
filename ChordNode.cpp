@@ -12,7 +12,7 @@
 #include <arpa/inet.h>
 
 #define BUFFER_SIZE 1024
-
+//smth
 bool ChordNode::inInterval(const Identifier &x, const Identifier &a, const Identifier &b, IntervalType interval_type) {
     bool lowerBound = interval_type == IntervalType::OO or interval_type == IntervalType::OC ? a < x : a <= x;
     bool upperBound = interval_type == IntervalType::OO or interval_type == IntervalType::CO ? x < b : x <= b;
